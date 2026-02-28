@@ -1,4 +1,6 @@
 
+using System;
+
 namespace RezervariAPI.Models;
 
 public class Rezervare

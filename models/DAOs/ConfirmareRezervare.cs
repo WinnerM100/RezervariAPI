@@ -1,5 +1,5 @@
 
-namespace RezervariAPI.Models;
+namespace RezervariAPI.Models.DAOs;
 public class ConfirmareRezervare
 {
     public Guid Id { get; init; }

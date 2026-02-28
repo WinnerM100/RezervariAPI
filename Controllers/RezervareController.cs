@@ -1,6 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
 using RezervariAPI.Models;
+using RezervariAPI.Models.DAOs;
+using RezervariAPI.Models.DTOs;
 using RezervariAPI.Services;
 
 namespace RezervariAPI.Controllers;
@@ -15,7 +17,7 @@ public class RezervareController : ControllerBase
     {
         this.rezervareService = rezervareService;
     }
-
+    [HttpPost]
     public IActionResult CreateRezervareForClient(DetaliiRezervare detaliiRezervare)
     {
         ConfirmareRezervare confirmareRezervare = rezervareService.CreateRezervareForClient(detaliiRezervare);

@@ -3,6 +3,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RezervariAPI.Models;
+using RezervariAPI.Models.DAOs;
+using RezervariAPI.Models.DTOs;
 
 namespace RezervariAPI.Services;
 
@@ -24,7 +26,7 @@ public class RezervariService : IRezervareService
             Comentarii = detaliiRezervare.Comentarii,
             Data = detaliiRezervare.Data,
             NrPersoane = detaliiRezervare.NrPersoane,
-            NrTelefon = detaliiRezervare.NrTelefon,
+            Contact1 = detaliiRezervare.NrTelefon,
             RezervareNumber = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString()
         };
 

@@ -1,6 +1,6 @@
 
 
-namespace RezervariAPI.Models;
+namespace RezervariAPI.Models.DTOs;
 
 public class DetaliiRezervare
 {
