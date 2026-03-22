@@ -11,12 +11,13 @@ namespace RezervariAPI.Controllers;
 [Route("[controller]")]
 public class RezervareController : ControllerBase
 {
-    private IRezervareService rezervareService;
+    private IRezervariService rezervareService;
 
-    public RezervareController(IRezervareService rezervareService)
+    public RezervareController(IRezervariService rezervareService)
     {
         this.rezervareService = rezervareService;
     }
+
     [HttpPost]
     public IActionResult CreateRezervareForClient(DetaliiRezervare detaliiRezervare)
     {
@@ -26,7 +27,7 @@ public class RezervareController : ControllerBase
         {
             return BadRequest($"Nu s-a putut crea nicio rezervare pentru detaliile: {detaliiRezervare}");
         }
-
+        
         return Ok(confirmareRezervare);
     }
 }

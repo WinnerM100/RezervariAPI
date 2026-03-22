@@ -65,3 +65,10 @@ d:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\obj\Deb
 d:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\obj\Debug\net8.0\RezervariAPI.pdb
 D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\obj\Debug\net8.0\RezervariAPI.genruntimeconfig.cache
 D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\obj\Debug\net8.0\ref\RezervariAPI.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Test Files and other Files\Files for C# Projects\ASP NET\RezervariAPI\bin\Debug\net8.0\System.Memory.Data.dll

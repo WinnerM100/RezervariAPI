@@ -7,7 +7,7 @@ using RezervariAPI.Models.DTOs;
 
 namespace RezervariAPI.Services;
 
-public interface IRezervareService
+public interface IRezervariService
 {
     public ConfirmareRezervare CreateRezervareForClient(DetaliiRezervare detaliiRezervare);
 }

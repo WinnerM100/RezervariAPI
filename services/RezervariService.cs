@@ -2,17 +2,18 @@
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using RezervariAPI.AccessLayer.Context;
 using RezervariAPI.Models;
 using RezervariAPI.Models.DAOs;
 using RezervariAPI.Models.DTOs;
 
 namespace RezervariAPI.Services;
 
-public class RezervariService : IRezervareService
+public class RezervariService : IRezervariService
 {
-    private DbContext dbContext;
+    private RezervariContext dbContext;
 
-    public RezervariService(DbContext dbContext)
+    public RezervariService(RezervariContext dbContext)
     {
         this.dbContext = dbContext;
     }
@@ -29,6 +30,8 @@ public class RezervariService : IRezervareService
             Contact1 = detaliiRezervare.NrTelefon,
             RezervareNumber = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString()
         };
+
+        Console.WriteLine(newRezervare);
 
         dbContext.Add(newRezervare);
         dbContext.SaveChanges();
